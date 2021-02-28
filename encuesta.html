@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="POST"></idm>
+        <link rel="stylesheet" type="text/css" href="proyecto.css">
+        <meta class="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9d6cb4bab1.js" crossorigin="anonymous"></script>
+        <title>
+            Canciones
+
+        </title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Realice el idmulario para saber tus gustos</h1>
+        <div id="datos" method="post" >
+            <fieldset >
+                <div class="col-md-12">
+                <legend>Datos personales</legend>
+                <label id="nombre">Nombre :</label>
+                <input  id="nombre" type="text" size="">
+                <label id="apellido">Apellidos :</label>
+                <input id="apellido" type="text">
+                <label id="correo">Correo :</label>
+                <input id="correo"type="email">
+                <label id="fecha">Fecha nacimiento</label>
+                <input id="fecha" type="date">
+            </div>
+                
+            </fieldset>
+            <fieldset>
+                
+                <legend>Encuesta</legend>
+                <div class="col-md-12">
+                <label id="grupo">Grupo favorito :</label>
+                <input  id="grupo"type="text">
+                </div>
+                <div class="col-md-12">
+                <label id="candion">Cancion favorita :</label>
+                <input id="candion"type="text">
+                </div>
+                <div class="col-md-12">
+                <label id="instrumentos">Tocas algun instrumento</label>
+                <label id="instrumentos">Si</label>
+                <input id="instrumentos" type="radio" name="instrumento">
+                <label id="instrumentos">No</label>
+                <input id="instrumentos"type="radio" name="instrumento"> 
+                </div>
+                <div class="col-md-12">
+                <label id="horas">Cuantas horas escuchas musica :</label>
+                <input id="horas"type="number">
+                </div>
+                <div class="col-md-12">
+                <label id="explica">Comenta que significa la musica para ti</label>
+                <textarea id="explica"cols="50" rows="1"></textarea>
+                </div>
+                
+            </fieldset>
+           
+            
+
+        </div>
+        <input type="submit" class="btn btn-primary btn-lg" value="Enviar">
+        <input type="reset" value="Resetear">
+
+        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+    
+
+    </html>

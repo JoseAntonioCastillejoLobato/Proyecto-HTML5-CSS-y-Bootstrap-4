@@ -1,0 +1,292 @@
+body{
+    background: url(https://img.freepik.com/foto-gratis/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28313.jpg?size=626&ext=jpg);
+    background-size: 100% 100%;
+}
+div#cabecera{
+   
+    height: 100px;
+    border-style: outset ;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20191025/pngtree-red-smoke-in-black-background-image_320082.jpg);
+    border-color: gray;
+
+}
+div#cabecera h1{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 0.5em;
+    font-family: 'Germania One', cursive;
+    text-shadow: 1px 2px 2px ivory;
+    
+}
+div#cabecera button#buscador,input#buscador{
+    float: right;
+    margin-top: 40px;
+    height: 40px;
+}
+
+* div#menu{
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-oscuro-negro-pizarra_28629-940.jpg);
+    font-family: 'Germania One', cursive;
+    font-size: 100px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 4px ivory;
+    float: left;
+    height: 600px;
+    margin: 3px;
+}
+
+div#contenido{
+    float: left;
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-oscuro-negro-pizarra_28629-940.jpg);
+    background-size: 100% 100%;
+    margin: 3px;
+    width: 1100px;
+    height: 750px;
+
+}
+div#contenido * li{
+    float: left;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+div#contenido img{
+    width: 666px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+div#contenido p{
+    font-family: 'Germania One', cursive;
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+ol#canciones{
+    font-family: 'Germania One', cursive;
+    color: white;
+    font-size: 25px;
+}
+div#datos{
+    font-family: 'Germania One', cursive;
+    font-size: 20px;
+    color: whitesmoke;
+}
+h1 {
+    font-family: 'Germania One', cursive;
+    
+    color: whitesmoke;
+}
+label#nombre{
+   margin-left: 20px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+input#nombre{
+    
+   
+}
+label#apellido{
+    margin-left: 20px;
+}
+input#apellido{
+    
+}
+label#correo{
+    margin-left: 20px;
+}
+input#correo{
+    margin-left: 20px;
+}
+label#fecha{
+    margin-left: 20px;
+}
+input#fecha{
+    
+}
+label#grupo{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+input#grupo{
+   
+}
+label#cancion{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+input#cancion{
+   
+    
+}
+label#instrumentos{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+input#instrumentos{
+   
+}
+label#horas{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+input#horas{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+label#explica{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+textarea#explica{
+    
+    
+}
+
+div#lateral{
+    float: left;
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-negro-efecto-humo_23-2147611844.jpg);
+    width: 300px;
+    margin: 3px;
+    height: 750px;
+    font-family: 'Germania One', cursive;
+}
+div#lateral h2{
+    padding-left: 10px;
+    font-family: 'Germania One', cursive;
+    color: whitesmoke;
+    text-shadow: 1px 1px 4px ivory;
+}
+div#lateral i#twitter{
+    float: left;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+div#lateral i#twitch{
+    float: left;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 30px;
+    color: #6441a5;
+}
+div#lateral i#facebook{
+    float: left;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 30px;
+    color: royalblue;
+}
+div#lateral i#youtube{
+    float: left;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 30px;
+    color: red;
+}
+div#lateral i#spotify{
+    float: left;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 30px;
+    color: rgb(21, 180, 21);
+}
+
+
+div#pie{
+    float: left;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20191025/pngtree-red-smoke-in-black-background-image_320082.jpg);
+    border: 3px solid black;
+    height: 100px;
+    margin-top: 3px;
+}
+div#pie i{
+    
+    float: left;
+}
+div#pie i#firma{
+    float: left;
+    font-size:  50px;
+    padding-left: 30px;
+    color:blue;
+}
+div#pie p{
+    float: left;
+    padding-top: 25px;
+    color: white;
+}
+div#pie i#copy{
+    float: left;
+    padding-top: 35px;
+    color:white;
+}
+div#pie i#mascara{
+    float: left;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 200px;
+    color: cornflowerblue;
+}
+div#pie h3{
+    float: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    color: white;
+}
+div#pie a{
+    float: right;
+    padding-right: 50px;
+    padding-top: 45px;
+    color: white;
+}
+div#pie i#politic{
+float: right;
+padding-right: 10px;
+font-size: 25px;
+padding-top: 45px;
+color:white;
+}
+table{
+    border: 5px red solid;
+    color: white;
+    font-family: 'Germania One', cursive;
+    text-shadow: 1px 2px 2px ivory;
+    font-size: 100px;
+}
+table * tr{
+    border: 5px red solid;
+}
+table * * td{
+    border: 5px red solid;
+}
+table#rammstein{
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+table#ghost{
+    margin-left: 80px;
+    float: left;
+    margin-top: 20px;
+    
+}
+table#metallica{
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+table#megadeth{
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
